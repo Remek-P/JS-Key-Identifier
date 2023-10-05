@@ -1,6 +1,6 @@
 const createHTML = (obj) => {
   const insert = document.getElementById("insert");
-  insert.innerHTML = "";
+  insert.textContent = "";
 
   for (let key in obj) {
     const div = document.createElement("div");
